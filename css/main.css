@@ -25,10 +25,11 @@
 }
 
 /* GENERAL */
-
+*{
+  box-sizing: border-box;
+}
 html{
   height: 100%;
-  box-sizing: border-box;
 }
 
 img{
@@ -226,10 +227,10 @@ body{
 }
 
 .download__list{
-  /* width: 911px; */
+  width: 911px;
   display: flex;
   justify-content: space-between;
-  /* margin: 0; */
+  margin: 0 auto;
   padding: 0;
   text-align: center;
   list-style: none;
@@ -257,7 +258,7 @@ body{
 .download__item{
   position: relative;
   width: 280px;
-  /* margin-right: 37px; */
+  margin-right: 37px;
   padding-top: 48px;
   padding-right: 24px;
   padding-bottom: 24px;
@@ -307,7 +308,7 @@ body{
 .download__item-link{
   margin-right: auto;
   margin-left: auto;
-  padding: 10px 35px;
+  padding: 10px 32px;
   display: inline-block;
   font-weight: var(--main-font-weight);
   font-size: 14px;
