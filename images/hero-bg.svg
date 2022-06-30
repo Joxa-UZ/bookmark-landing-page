@@ -1,0 +1,55 @@
+<svg width="1195" height="496" viewBox="0 0 1195 496" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="195" y="144" width="1000" height="352" rx="176" fill="#5267DF"/>
+<g filter="url(#filter0_d_5533_4)">
+<rect x="40" y="10" width="578" height="385" rx="26" fill="#777777"/>
+</g>
+<rect x="42" y="12" width="574.23" height="381.865" rx="25" fill="url(#paint0_linear_5533_4)"/>
+<rect opacity="0.1" x="94.0305" y="26.3029" width="471.463" height="353.756" rx="5" fill="#2A2A2A"/>
+<rect x="61.0305" y="29.3029" width="536" height="346" rx="8" fill="#E8EAF6"/>
+<mask id="mask0_5533_4" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="61" y="29" width="537" height="347">
+<rect x="61.0305" y="29.3029" width="536" height="346" rx="8" fill="white"/>
+</mask>
+<g mask="url(#mask0_5533_4)">
+<rect x="57.5" y="29.5" width="547" height="59" fill="#5267DF"/>
+<circle opacity="0.244768" cx="99.5" cy="59.5" r="16" fill="white"/>
+<circle opacity="0.104399" cx="560.5" cy="59.5" r="16" fill="white"/>
+<rect opacity="0.75" x="130.5" y="49.5" width="120" height="6" rx="3" fill="white"/>
+<rect opacity="0.25" x="130.5" y="63.5" width="64" height="6" rx="3" fill="white"/>
+<rect x="118.031" y="122.303" width="261" height="316" rx="8" fill="white"/>
+<rect x="413.031" y="122.303" width="128" height="316" rx="8" fill="white"/>
+<rect opacity="0.5" x="196.5" y="160.5" width="120" height="6" rx="3" fill="#242A45"/>
+</g>
+<circle cx="165.5" cy="170.5" r="16" fill="#F98E5D"/>
+<rect opacity="0.25" x="433.5" y="144.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect opacity="0.25" x="433.5" y="164.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect opacity="0.25" x="433.5" y="184.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect opacity="0.25" x="433.5" y="204.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect opacity="0.25" x="433.5" y="238.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect opacity="0.25" x="433.5" y="258.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect opacity="0.25" x="433.5" y="278.5" width="88" height="6" rx="3" fill="#242A45"/>
+<rect opacity="0.25" x="196.5" y="174.5" width="64" height="6" rx="3" fill="#242A45"/>
+<circle cx="165.5" cy="226.5" r="16" fill="#6AC6D6"/>
+<rect opacity="0.5" x="196.5" y="216.5" width="120" height="6" rx="3" fill="#242A45"/>
+<rect opacity="0.25" x="196.5" y="230.5" width="64" height="6" rx="3" fill="#242A45"/>
+<circle cx="165.5" cy="282.5" r="16" fill="#A47ED4"/>
+<rect opacity="0.5" x="196.5" y="272.5" width="120" height="6" rx="3" fill="#242A45"/>
+<rect opacity="0.25" x="196.5" y="286.5" width="64" height="6" rx="3" fill="#242A45"/>
+<circle cx="165.5" cy="338.5" r="16" fill="#EC7878"/>
+<rect opacity="0.5" x="196.5" y="328.5" width="120" height="6" rx="3" fill="#242A45"/>
+<rect opacity="0.25" x="196.5" y="342.5" width="64" height="6" rx="3" fill="#242A45"/>
+<defs>
+<filter id="filter0_d_5533_4" x="0" y="0" width="658" height="465" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="30"/>
+<feGaussianBlur stdDeviation="20"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.182433 0 0 0 0 0.230633 0 0 0 0 0.506058 0 0 0 0.20012 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5533_4"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5533_4" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_5533_4" x1="887.542" y1="205.906" x2="547.825" y2="-304.944" gradientUnits="userSpaceOnUse">
+<stop stop-color="#151515"/>
+<stop offset="1" stop-color="#3D3D3D"/>
+</linearGradient>
+</defs>
+</svg>

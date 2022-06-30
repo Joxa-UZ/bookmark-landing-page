@@ -4,40 +4,110 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template Project</title>
+  <title>Bookmark Landing Page - Lesson 9</title>
   <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 <body>
-
-
-
+  
+  
+  
   <!-- SITE HEADER START -->
-
+  
   <header class="site-header">
-
+    <div class="container">
+      <div class="site-header-box">
+        <a class="site-header-box__link" href="./index.html">
+          <img class="site-header-box__logo" src="./images/bookmark-logo.svg" width="149" height="25" alt="bookmark logo">
+        </a>
+        <div class="site-header-box__finish navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a class="navbar__link" href="#">FEATURES</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#" >PRICING</a>
+            </li>
+            <li class="navbar__item">
+              <a class="navbar__link" href="#" >CONTACT</a>
+            </li>
+          </ul>
+          <a class="navbar__button" href="#">LOGIN</a>
+        </div>
+      </div>
+    </div>
   </header>
-
+  
   <!-- SITE HEADER END -->
-
-
+  
+  
   <!-- SITE MAIN START -->
   <main class="site-main">
-
+    
     <section class="hero">
-      
+      <div class="container">
+        <div class="hero-box">
+          <h1 class="hero-box__theme">A Simple Bookmark Manager</h1>
+          <p class="hero-box__text">
+            A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+          </p>
+          <div class="hero-box__link-box">
+            <a class="hero-box__link-chrome" href="#">Get it on Chrome</a>
+            <a class="hero-box__link-chrome hero-box__link-chrome--link-firefox" href="#">Get it on Firefox</a>
+          </div>
+        </div>
+      </div>
     </section>
-
+    
+    <section class="download">
+      <div class="container">
+        <div class="download__box">
+          <div class="download__info">
+            <h2 class="download__theme">Download the extension</h2>
+            <p class="download__text">
+              We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.
+            </p>
+          </div>
+          
+          <ul class="download__list">
+            <li class="download__item">
+              <div class="download__item-info-box">
+                <h3 class="download__item-theme">Add to Chrome</h3>
+                <p class="download__item-text">Minimum version 62</p>
+              </div>
+              
+              <a href="#" class="download__item-link">Add & Install Extension</a>
+            </li>
+            <li class="download__item download__item--firefox">
+              <div class="download__item-info-box">
+                <h3 class="download__item-theme">Add to Firefox</h3>
+                <p class="download__item-text">Minimum version 552</p>
+              </div>
+              
+              <a href="#" class="download__item-link">Add & Install Extension</a>
+            </li>
+            <li class="download__item download__item--opera">
+              <div class="download__item-info-box">
+                <h3 class="download__item-theme">Add to Opera</h3>
+                <p class="download__item-text">Minimum version 46</p>
+              </div>
+              
+              <a href="#" class="download__item-link">Add & Install Extension</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </main>
-
+  
   <!-- SITE MAIN END -->
-
+  
   <!-- SITE FOOTER START -->
   <footer class="site-footer">
-
+    
   </footer>
   <!-- SITE FOOTER END -->
-
+  
 </body>
 </html>
