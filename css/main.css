@@ -387,10 +387,6 @@ body{
 .features{
   padding-top: 80px;
   padding-bottom: 149px;
-  background-image: url(../images/features-bg.svg);
-  background-repeat: no-repeat;
-  background-size: 1000px;
-  background-position: calc(50% - 550px) calc(50% + 190px);
 }
 .features__top{
   width: 540px;
@@ -428,15 +424,22 @@ body{
   margin-right: auto;
   margin-left: auto;
   padding: 0;
-  padding-bottom: 72px;
+  /* padding-bottom: 72px; */
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   list-style: none;
+  /* border-bottom: 1px solid #5267DF; */
+  
+  border-bottom: 1px solid #495dcf33;
+}
+.features__item{
+  width: 243px;
+  border-bottom: 4px solid transparent;
 }
 .features__link{
   padding-bottom: 27px;
-  padding-left: 41px;
+  padding-left: 39px;
   padding-right: 41px;
   font-size: 16px;
   line-height: 17px;
@@ -444,19 +447,40 @@ body{
   text-decoration: none;
   color: var(--main-text-color);
   opacity: 0.75;
-  border-bottom: 4px solid transparent;
 }
-.features__link--active{
+.features__item--active{
   border-bottom: 4px solid #FA5959;
-  opacity: 1;
 }
 
 .features__link:hover{
   color: #FA5959;
 }
 .features-info{
+  position: relative;
   width: 445px;
   margin-left: auto;
+}
+.features-info__bookmark{
+  position: relative;
+}
+.features-info::before{
+  position: absolute;
+  top: -55px;
+  left: -1195px;
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 1065px;
+  height: 435px;
+} 
+.features-info__bookmark::before{
+  background-image: url(../images/features-bg.svg);
+}
+.features-info__searching::before{
+  background-image: url(../images/features-2.svg);
+}
+.features-info__sharing::before{
+  background-image: url(../images/features-3.svg);
 }
 .features-info__theme{
   margin: 0;
@@ -484,6 +508,17 @@ body{
   border-radius: 5px;
   background-color: #5267DF;
 }
+.features-info{
+  display: none;
+}
+.features-info{
+  margin-top: 140px;
+}
+.features__box-inner--active .features-info{
+  display: block;
+}
+
+
 .questions{
   padding-bottom: 50px;
 }
@@ -727,7 +762,7 @@ body{
   position: absolute;
   top: 0;
   right: 0;
-  padding: 10px 24px;
+  padding: 9px 24px;
   font-weight: var(--main-font-weight);
   font-size: 14px;
   line-height: 28px;
@@ -738,7 +773,7 @@ body{
   cursor: pointer;
   -webkit-box-shadow: 0px 8px 8px -4px #495dcf33;
   box-shadow: 0px 8px 8px -4px #495dcf33;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 5px;
 }
 .contact__button:hover{
@@ -749,26 +784,36 @@ body{
 .contact__error{
   display: block;
   opacity: 0;
+  position: absolute;
+  top: 42px;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  color: #fff;
+  background-color: #FA5959;
+  border: none;
+  border-radius: 5px;
 }
 .contact__input:not(:-moz-placeholder-shown):not(:focus):invalid {
-  border: 2px solid red;
-  color: red;
+  border: 2px solid #FA5959;
+  color: #FA5959;
   background-image: url(../images/error.svg);
   display: inline-block;
   background-position: calc(50% + 130px) calc(50%);
   background-repeat: no-repeat;
 }
 .contact__input:not(:-ms-input-placeholder):not(:focus):invalid {
-  border: 2px solid red;
-  color: red;
+  border: 2px solid #FA5959;
+  color: #FA5959;
   background-image: url(../images/error.svg);
   display: inline-block;
   background-position: calc(50% + 130px) calc(50%);
   background-repeat: no-repeat;
 }
 .contact__input:not(:placeholder-shown):not(:focus):invalid {
-  border: 2px solid red;
-  color: red;
+  border: 2px solid #FA5959;
+  color: #FA5959;
   background-image: url(../images/error.svg);
   display: inline-block;
   background-position: calc(50% + 130px) calc(50%);
@@ -801,17 +846,7 @@ body{
   border-radius: 5px;
 }
 .contact__input:not(:placeholder-shown):not(:focus):invalid+.contact__error {
-  position: absolute;
-  top: 42px;
-  opacity: 1;
-  width: 300px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  color: #fff;
-  background-color: #FA5959;
-  border: none;
-  border-radius: 5px;
+ opacity: 1;
 }
 
 .site-footer{

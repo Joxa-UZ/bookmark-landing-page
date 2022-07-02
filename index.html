@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bookmark Landing Page - Lesson 9</title>
   <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
 </head>
 <body>
   
@@ -69,26 +69,56 @@
           </p>
         </div>
         
+        
         <ul class="features__list">
           <li class="features__item">
-            <a href="#" class="features__link features__link--active">Simple Bookmarking</a>
+            <a href="#bookmark" class="features__link features__link--active">Simple Bookmarking</a>
           </li>
           <li class="features__item">
-            <a href="#" class="features__link">Speedy Searching</a>
+            <a href="#intelligent" class="features__link">Speedy Searching</a>
           </li>
           <li class="features__item">
-            <a href="#" class="features__link">Easy Sharing</a>
+            <a href="#share" class="features__link">Easy Sharing</a>
           </li>
         </ul>
-        
-        <div class="features__info features-info">
-          <h3 class="features-info__theme">Bookmark in one click</h3>
-          <p class="features-info__text">
-            Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
-          </p>
+        <div class="features__box">
           
-          <a class="features-info__btn" href="#">More Info</a>
+          <div class="features__box-inner features__box-inner--active" id="bookmark">
+            <div class="features__info features-info features-info__bookmark">
+              <h3 class="features-info__theme">Bookmark in one click</h3>
+              <p class="features-info__text">
+                Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+              </p>
+              
+              <a class="features-info__btn" href="#">More Info</a>
+            </div>
+          </div>
+          <div class="features__box-inner" id="intelligent">
+            
+            <div class="features__info features-info features-info__searching">
+              <h3 class="features-info__theme">Intelligent search</h3>
+              <p class="features-info__text">
+                Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.
+              </p>
+              
+              <a class="features-info__btn" href="#">More Info</a>
+            </div>
+          </div>
+          <div class="features__box-inner" id="share">
+            
+            <div class="features__info features-info features-info__sharing">
+              <h3 class="features-info__theme">Share your bookmarks</h3>
+              <p class="features-info__text">
+                Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
+              </p>
+              
+              <a class="features-info__btn" href="#">More Info</a>
+            </div>
+          </div>
+          
+          
         </div>
+        
       </div>
     </section>
     
@@ -208,7 +238,7 @@
         <div class="container">
           <div class="site-footer__box">
             <div class="site-footer__box-inner">
-              <img class="site-footer__img" src="./images/logo-white.svg" width="148" height="25" alt="bookmark logo">
+              <a href="./index.html"><img class="site-footer__img" src="./images/logo-white.svg" width="148" height="25" alt="bookmark logo"></a>
               
               <ul class="site-footer__list">
                 <li class="site-footer__item">
@@ -236,6 +266,6 @@
         </div>
       </footer>
       <!-- SITE FOOTER END -->
-      
+      <script src="js/main.js"></script>
     </body>
     </html>
